@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PMDM Tarea 3</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="registrar">Registrar</string>
+    <string name="default_web_client_id">254178472865-jicui9hd2n6d5b1mp5b1jfm3h2992bor.apps.googleusercontent.com</string>
+    <string name="no_tienes_cuenta_reg_strate">¿No tienes cuenta? Regístrate</string>
+    <string name="login_button_text">Iniciar sesión</string>
+    <string name="register_button_text">Registro</string>
+    <string name="language_updated">Idioma actualizado</string>
+    <string-array name="language_options">
+        <item>Castellano</item>
+        <item>Inglés</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="jimenez.fernandez.manueljesus.pmdmtarea3.ui.pokedex.PokedexFragment"
+        android:label="Mis pokémons"
+        tools:layout="@layout/fragment_pokedex" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="jimenez.fernandez.manueljesus.pmdmtarea3.ui.pokemons.PokemonsFragment"
+        android:label="Pokédex"
+        tools:layout="@layout/fragment_pokemons" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="jimenez.fernandez.manueljesus.pmdmtarea3.ui.ajustes.AjustesFragment"
+        android:label="Ajustes"
+        tools:layout="@layout/fragment_ajustes" />
+</navigation>

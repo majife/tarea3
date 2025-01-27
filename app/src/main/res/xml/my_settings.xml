@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 1) para eliminar pokemons -->
+    <CheckBoxPreference
+        android:key="pref_eliminar_pokemon"
+        android:title="Eliminar Pokémon capturados"
+        android:summary="Activa para permitir la eliminación desde la pestaña Capturados"
+        android:defaultValue="false" />
+
+    <!-- 2) Cambio de idioma -->
+    <ListPreference
+        android:key="pref_idioma"
+        android:title="Idioma de la aplicación"
+        android:dialogTitle="Selecciona el idioma"
+        android:entries="@array/lista_idiomas"
+        android:entryValues="@array/lista_idiomas_values"
+        android:defaultValue="es"
+        android:summary="Elige entre castellano e inglés" />
+
+    <!-- cerrar seision -->
+    <Preference
+        android:id="@+id/btnLogout"
+        android:key="pref_logout"
+        android:title="Cerrar sesión"
+        android:summary="Pulsa para salir de tu cuenta" />
+
+</PreferenceScreen>
